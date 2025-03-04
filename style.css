@@ -1,0 +1,136 @@
+body {
+  font-family: sans-serif;
+  background-color: #262016;
+  color: #fff;
+}
+
+.container {
+    max-width: 130rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+
+/* HEADER */
+
+.header__logo {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo .logo {
+  font-size: 1.5rem;
+  font: bold;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.header__nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 3rem;
+}
+
+/* BANNER */
+
+.banner__wrapper {
+  display: flex;
+}
+
+.banner__content h1 {
+  font-size: 4rem;
+  width: 30rem;
+}
+
+.banner__content h1 span {
+    color: #ffa700;
+}
+
+.banner__content p {
+    width: 32rem;
+    text-align: justify;
+}
+
+.banner__image {
+    display: flex;
+    justify-content: end;
+}
+
+.banner__button {
+    background-color: #ffa700;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 5rem;
+}
+
+/* ABOUT */
+
+.about__wrapper {
+    
+}
+
+.about__content {
+    display: flex;
+    padding: 5rem;
+}
+
+.about__content h1 {
+    font-size: 2rem;
+    color: #ffa700;
+
+}
+
+.about__content p {
+    width: 15rem;
+    text-align: justify;
+}
+
+.about__content__left {
+    padding: 0rem 5rem;
+}
+
+.about__content__middle {
+    padding: 0rem 5rem;
+}
+
+.about__content__right {
+    padding: 0rem 5rem;
+}
+
+.about__button {
+    background-color: #ffa700;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 5rem;
+}
+
+.about__images {
+    padding: 0rem 5rem;
+}
+
+.about__images img {
+    padding: 0rem 1.5rem;
+}
+
+/* PROGRAM */
+
+.program__wrapper{
+    padding: 2rem 0rem;
+}
+
+.program__wrapper h1 {
+    font-size: 1.5rem;
+    color: #ffa700;
+}
+
+.program__content {
+    display: flex;
+}
+
+.program__content__left {
+    
+}
+
+.program__content__left h3 {
+    font-size: 2rem;
+    width: 12rem;
+}
