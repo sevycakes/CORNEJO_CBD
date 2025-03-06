@@ -273,13 +273,19 @@ Details Activity * {
     padding-top: 30rem;
 }
 
+.about__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+}
+
 .about__content {
     display: flex;
-    position: relative;
+    position: relative; /* optional */
     justify-content: space-between;
 }
 
-.about__content h1 {
+.about__content__left h1 {
     font-size: 3rem;
     font-weight: bold;
     color: #fea701;
@@ -322,12 +328,6 @@ Details Activity * {
 .about__images img:hover {
   width: 30rem;
   height: 30rem;
-}
-
-.about__wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 10rem;
 }
 
 /* PROGRAM */
